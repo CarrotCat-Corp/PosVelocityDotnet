@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>13.0</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>CarrotCat.PosVelocityDotnet</PackageId>
+        <PackageVersion>0.0.1-beta</PackageVersion>
+        <Authors>OlegS</Authors>
+        <Company>CarrotCat Corp.</Company>
+        <Copyright>Copyright 2025 CarrotCat Corp.</Copyright>
+        <Title>PosVelocityDotnet</Title>
+        <Description>PosVelocityDotnet is a API client that provides comprehensive and convenient way to make requests with PosVelocity API.</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/CarrotCat-Corp/PaymentGatewayDotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/CarrotCat-Corp/PaymentGatewayDotnet</RepositoryUrl>
+        <PackageTags>PosVelocity, Empyrean</PackageTags>
+        <AssemblyOriginatorKeyFile>CarrotCatCorpNuGet.snk</AssemblyOriginatorKeyFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE" Pack="true" PackagePath="" />
+        <None Include="../README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    </ItemGroup>
+
+</Project>

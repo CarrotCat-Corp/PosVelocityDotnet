@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosVelocityDotnet.Tests", "tests\PosVelocityDotnet.Tests\PosVelocityDotnet.Tests.csproj", "{ECA62BAB-059A-4005-89B4-D5C000446DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosVelocityDotnet", "src\PosVelocityDotnet\PosVelocityDotnet.csproj", "{89F8BF48-89A6-4B06-BF44-E8EAF858E127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA62BAB-059A-4005-89B4-D5C000446DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA62BAB-059A-4005-89B4-D5C000446DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA62BAB-059A-4005-89B4-D5C000446DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA62BAB-059A-4005-89B4-D5C000446DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F8BF48-89A6-4B06-BF44-E8EAF858E127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F8BF48-89A6-4B06-BF44-E8EAF858E127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F8BF48-89A6-4B06-BF44-E8EAF858E127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F8BF48-89A6-4B06-BF44-E8EAF858E127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
