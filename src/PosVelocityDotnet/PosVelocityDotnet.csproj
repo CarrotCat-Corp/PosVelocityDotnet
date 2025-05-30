@@ -13,8 +13,8 @@
         <Title>PosVelocityDotnet</Title>
         <Description>PosVelocityDotnet is a API client that provides comprehensive and convenient way to make requests with PosVelocity API.</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageProjectUrl>https://github.com/CarrotCat-Corp/PaymentGatewayDotnet</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/CarrotCat-Corp/PaymentGatewayDotnet</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/CarrotCat-Corp/PosVelocityDotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/CarrotCat-Corp/PosVelocityDotnet</RepositoryUrl>
         <PackageTags>PosVelocity, Empyrean</PackageTags>
         <AssemblyOriginatorKeyFile>CarrotCatCorpNuGet.snk</AssemblyOriginatorKeyFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
