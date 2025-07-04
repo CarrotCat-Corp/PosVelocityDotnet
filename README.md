@@ -104,3 +104,6 @@ Note: This client will catch and process JSON deserialization exceptions, but no
 ### v0.0.1
 - Initial release
 - Implemented most of the endpoints 
+
+### v0.0.2
+- Extended Options object in Payment Request to accommodate braking changes introduced within the same API version. Also added default values to avoid bracing changes in this library.
