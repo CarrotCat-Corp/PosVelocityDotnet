@@ -77,7 +77,7 @@ public sealed class PosVelocityApiClient : IPosVelocityApiClient, IDisposable
 
         if (disposing && _shouldDisposeClient)
         {
-            _httpClient?.Dispose();
+            _httpClient.Dispose();
         }
 
         _disposed = true;
@@ -185,7 +185,6 @@ public sealed class PosVelocityApiClient : IPosVelocityApiClient, IDisposable
 
         var httpResult = await _httpClient.PutAsync(uri,
             new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json"));
-        ;
 
         return await ResponseProcessor.ProcessHttpResponseMessageAsync(httpResult);
     }
@@ -341,7 +340,7 @@ public sealed class PosVelocityApiClient : IPosVelocityApiClient, IDisposable
     }
 
     [Obsolete("GetPrintersAsync is not yet implemented due to API returning a webpage")]
-    public async Task<PosVelocityResult<object>> GetPaymentReceiptAsync(
+    public Task<PosVelocityResult<object>> GetPaymentReceiptAsync(
         PosVelocityAuthParameters auth,
         PosVelocityDeviceTarget targetDevice,
         string paymentId,
@@ -352,7 +351,7 @@ public sealed class PosVelocityApiClient : IPosVelocityApiClient, IDisposable
     }
 
     [Obsolete("GetCustomerInputAsync is not yet implemented due to API returning a webpage")]
-    public async Task<PosVelocityResult<object>> GetCustomerInputAsync(
+    public Task<PosVelocityResult<object>> GetCustomerInputAsync(
         PosVelocityAuthParameters auth,
         PosVelocityDeviceTarget targetDevice,
         CustomerInputRequest request,
